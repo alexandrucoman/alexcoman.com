@@ -1,6 +1,11 @@
 # General configuration
 url: http://alexcoman.com
 baseurl: ''
+safe: true
+lsi: false
+pygments: true
+sass:
+    style: compressed
 
 # Dependencies
 markdown: kramdown
