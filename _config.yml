@@ -1,6 +1,22 @@
-# general configuration
+# General configuration
 url: http://alexcoman.com
 baseurl: ''
+
+# Dependencies
+markdown: kramdown
+highlighter: pygments
+
+# Permalinks
+permalink: pretty
+relative_permalinks: true
+
+exclude:
+  - .travis.yml
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
 
 # compass configuration
 compass:
@@ -18,10 +34,11 @@ compass:
   # Tracking Code to that file.
   include_analytics: false
 
-# Dependencies
-markdown: kramdown
-highlighter: pygments
-
-# Permalinks
-permalink: pretty
-relative_permalinks: true
+# Settings for deploy rake task
+username:        alexandrucoman
+repo:            alexcoman.com
+branch:          source
+relative_source: ../alexcoman.com/
+destination:     ../alexcoman.com-pages/
+production_url:  http://alexcoman.com
+source_url:      http://github.com/alexandrucoman/alexcoman.com
