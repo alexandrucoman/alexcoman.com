@@ -1,10 +1,9 @@
 # General configuration
 url: https://alexcoman.com
-enforce_ssl: alexcoman.com
 baseurl: ''
+enforce_ssl: alexcoman.com
 safe: true
 lsi: false
-pygments: true
 sass:
     style: compressed
 
@@ -29,9 +28,14 @@ compass:
   # an avatar or logo (optional)
   logo: "/images/Alexandru_Coman.jpg"
   # author will appear under the avatar (optional)
-  author: "Alexandru Coman"
+  author: "Alex Coman"
   # tagline will appear under the title (optional)
   tagline: 'Python Developer / IT enthusiast<br>Cloud Engineer <a href="http://www.cloudbase.it/" target="_blank">@Cloudbase</a>'
+
+  title: Alex Coman
+  description: Alex Coman
+  keywords: "website, cloud, engineer, python, developer"
+
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
   include_content: true
