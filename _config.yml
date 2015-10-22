@@ -32,8 +32,8 @@ compass:
   # tagline will appear under the title (optional)
   tagline: 'Python Developer / IT enthusiast<br>Cloud Engineer <a href="http://www.cloudbase.it/" target="_blank">@Cloudbase</a>'
 
-  title: Alex Coman
-  description: Alex Coman
+  title: "Alex Coman"
+  description: "The personal website of Alex Coman."
   keywords: "website, cloud, engineer, python, developer"
 
   # if include_content is true, the contents of the content.html include will be
