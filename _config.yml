@@ -1,5 +1,6 @@
 # General configuration
-url: http://alexcoman.com
+url: https://alexcoman.com
+enforce_ssl: alexcoman.com
 baseurl: ''
 safe: true
 lsi: false
@@ -45,5 +46,5 @@ repo:            alexcoman.com
 branch:          source
 relative_source: ../alexcoman.com/
 destination:     ../alexcoman.com-pages/
-production_url:  http://alexcoman.com
-source_url:      http://github.com/alexandrucoman/alexcoman.com
+production_url:  https://alexcoman.com
+source_url:      https://github.com/alexandrucoman/alexcoman.com
