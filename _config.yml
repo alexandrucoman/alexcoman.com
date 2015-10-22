@@ -31,7 +31,7 @@ compass:
   # author will appear under the avatar (optional)
   author: "Alexandru Coman"
   # tagline will appear under the title (optional)
-  tagline: "Personal Website."
+  tagline: 'Python Developer / IT enthusiast<br>Cloud Engineer <a href="http://www.cloudbase.it/" target="_blank">@Cloudbase</a>'
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
   include_content: true
