@@ -51,4 +51,4 @@ branch:          source
 relative_source: ../alexcoman.com/
 destination:     ../alexcoman.com-pages/
 production_url:  https://alexcoman.com
-source_url:      https://github.com/alexandrucoman/alexcoman.com
+source_url:      https://github.com/alexcoman/alexcoman.com
