@@ -11,6 +11,7 @@
 html {
 	@extend %extend1;
 }
+
 body {
 	@extend %extend1;
 	font-family: $font1;
@@ -19,6 +20,10 @@ body {
 	background-color: $bodycolor;
 	background-position: center center;
 	background-attachment: fixed;
+	background-image: url($backgroundimage);
+	background-repeat: no-repeat;
+	background-size: cover;
+
 	@media #{$small} {
 	    background-image: none !important;
 		background: $white;
