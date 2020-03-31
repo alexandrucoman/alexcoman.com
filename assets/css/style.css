@@ -1,0 +1,207 @@
+html {
+	font-family: Monaco, Helvetica, sans-serif;
+}
+
+ ::-webkit-selection {
+	background: #fffac4;
+	color: #111;
+	text-shadow: none;
+}
+
+ ::-moz-selection {
+	background: #fffac4;
+	color: #111;
+	text-shadow: none;
+}
+
+ ::-ms-selection {
+	background: #fffac4;
+	color: #111;
+	text-shadow: none;
+}
+
+ ::selection {
+	background: #fffac4;
+	color: #111;
+	text-shadow: none;
+}
+
+header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	display: -webkit-flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin: 30px 0 0;
+	padding: 0 30px;
+}
+
+header a {
+	color: #111;
+	text-decoration: none;
+	-webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	font-size: 2em;
+	font-weight: bold;
+}
+
+header a::before {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #ffea00;
+}
+
+@media (max-width: 415px) {
+	header a {
+		font-size: 1.7em;
+	}
+}
+
+body {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	display: -webkit-flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	min-height: 100vh;
+	margin: 0;
+	background: #f0f0f0;
+}
+
+a {
+	-webkit-tap-highlight-color: transparent;
+}
+
+.avatar {
+	position: relative;
+	bottom: -95px;
+	border: #f0f0f0 solid 20px;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+
+.avatar::before {
+	border: #fff solid 10px;
+	border-radius: 50%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	content: ' ';
+	height: 140%;
+	left: -20%;
+	opacity: 0.9;
+	position: absolute;
+	top: -20%;
+	-webkit-transform: scale(0.714);
+	transform: scale(0.714);
+	width: 140%;
+	z-index: 1;
+}
+
+.avatar img {
+	position: relative;
+	z-index: 2;
+	width: 100%;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+	-ms-box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+	-webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+@media (min-width: 769px) {
+	.avatar img:hover {
+		-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23);
+		-ms-box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23);
+		box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23);
+		-webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+		transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	}
+}
+
+.content {
+	width: 100%;
+	min-height: 70vh;
+	height: auto;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+	-ms-box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+	-webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	background: #fff;
+}
+
+.content h1,
+p {
+	position: relative;
+	text-align: center;
+}
+
+.content h1 {
+	padding-top: 115px;
+	font-size: 2em;
+}
+
+.content p {
+	font-size: 1em;
+	padding-top: 10px;
+}
+
+.contact {
+	padding-top: 20px;
+}
+
+.contact span a {
+	font-size: 2em;
+	color: #f0f0f0;
+	text-decoration: none;
+	margin: 0 10px;
+	-webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+@media (min-width: 769px) {
+	.contact span a:hover {
+		color: #000;
+	}
+}
+
+@media (max-width: 415px) {
+	.avatar {
+		width: 100px;
+		height: 100px;
+		bottom: -70px;
+		border: #f0f0f0 solid 15px;
+	}
+	.content h1 {
+		padding-top: 95px;
+		font-size: 1em;
+	}
+	.content p {
+		font-size: 0.9em;
+	}
+	.contact span a {
+		font-size: 1.5em;
+	}
+}
